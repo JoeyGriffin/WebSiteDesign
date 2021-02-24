@@ -1,0 +1,40 @@
+p{
+	/*background-color:red;*/
+	max-width:30%;
+}
+body{margin:0px;}
+div{
+display:flex;
+margin:20px;
+flex-direction:row;
+flex-wrap:wrap;
+border-radius: 10px;
+text-align:center;
+}
+ul{
+	display:inline-block;
+	background-color:lightblue;
+}
+li{
+	list-style-type:none;
+}
+nav{text-align:center;}
+#bottomn{
+
+	padding-left:40%;
+text-align:center;}
+img{
+	
+	width:20%;
+	height:20%;
+	border-radius:100%;
+}
+nav{
+background-color:lightblue;
+border-radius:0% 0% 20% 20%;
+margin-bottom:0px;
+}
+#ContactUs{background-color:lightblue;
+margin:0px;
+	border-radius:20% 20% 0% 0%;
+text-align:center;}
