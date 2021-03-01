@@ -20,7 +20,7 @@ li{
 	list-style-type:none;
 }
 #signlist{
-margin-left:420px;
+margin-left:0px;
 margin-bottom:10px;}
 #signDescript{
 	display:inline-block;
@@ -51,11 +51,12 @@ img{
 
 #inventorydiv{
 	display:flex;
-	margin-bottom:0px;
+	margin-right:0px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
 	text-align:center;
+	margin-bottom:10px;
 }
 
 #bottomn{
@@ -69,9 +70,13 @@ img{
 	background-color:#04BEF4;
 	margin:0px;
 	text-align:center;
+
 }
 .bottomContact{
 	padding-left:0px;
 	
 	padding-right:0px;
- } 
+}
+body{
+	margin:0px;
+}
