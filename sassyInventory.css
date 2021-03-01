@@ -19,6 +19,16 @@ ul{
 li{
 	list-style-type:none;
 }
+#signlist{
+margin-left:420px;
+margin-bottom:10px;}
+#signDescript{
+	display:inline-block;
+	background-color:white;
+	font-size:15px;
+	margin:0px;
+	padding-left:8px;
+}
 p{
 	margin-left:200px;
 	font-size:24px;
@@ -34,11 +44,14 @@ img{
 	border-radius:100%;
 	margin-left:20px;
 }
+#Imagerattle{
+	width:4%;
+	height:5%;
+}
 
 #inventorydiv{
-	
 	display:flex;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
@@ -61,4 +74,4 @@ img{
 	padding-left:0px;
 	
 	padding-right:0px;
-}
+ } 
