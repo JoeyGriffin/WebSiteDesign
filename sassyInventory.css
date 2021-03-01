@@ -1,1 +1,15 @@
-nav{background-color:blue;}
+nav{
+  background-color:#04BEF4;
+	margin-bottom:0px;
+	text-align:center;
+	color:white;}
+ul{
+	display:inline-block;
+	background-color:#04BEF4;
+	font-size:19px;
+	margin-left:100px;
+	margin-right:100px;
+}
+li{
+	list-style-type:none;
+}
