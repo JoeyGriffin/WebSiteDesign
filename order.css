@@ -1,72 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
-
-nav{background-color:#04BEF4;
-	margin-bottom:0px;
-	text-align:center;
-	color:white;
-	margin-right:0px;
-	width:100%;}
-li{
-	list-style-type:none;
-}
-ul{
-	display:inline-block;
-	background-color:#04BEF4;
-	font-size:19px;
-	padding:02px;
-}
-h1{
-	font-size:20px;
-}
-a{
-	color:white;
-	text-decoration:none;
-}
-#topdirect{
-	margin-left:0px;
-	margin-right:0px;
+nav {
+  background-color: #04BEF4;
+  text-align: center;
+  width: 100%;
+  border-radius:0% 0% 20% 20%;
 }
 
-#bottomn{
-	color:white;
-	padding-left:15%;
-	padding-top:20px;
-	text-align:center;
+#images{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  float: left;
+  padding-right: 0%;
 }
 
-#ContactUs{
-	background-color:#04BEF4;
-	margin:0px;
-	border-radius:20% 20% 0% 0%;
-	text-align:center;
-}
-.bottomContact{
-	padding-left:130px;
-	padding-top:0px;
-	padding-right:100px;
-}
+#form{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  justify-content: center;
 
-#images {
-	display: flex;
-	flex-direction: column;
-	margin-left: 50px;
-	height: 30%;
-	width: 30%;
-	border-radius: 50%;
 
 }
-
-form {
-	text-align: center;
-	font-family: Faustina;
+#ContactUs {
+  text-align: center;
 }
 
-#inventoryselection {
-	height: 100px;
-	width: 300px;
-}
-
-#qoc {
-	height: 100px;
-	width: 300px;
+#images2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  float: right;
+  justify-content: right;
 }
