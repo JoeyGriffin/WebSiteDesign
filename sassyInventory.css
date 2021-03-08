@@ -7,15 +7,18 @@ nav{background-color:#04BEF4;
 	width:100%;}
 li{
 	list-style-type:none;
+	margin-right:270px;
+	
 }
 ul{
 	display:inline-block;
 	background-color:#04BEF4;
 	font-size:19px;
-	padding:02px;
+	padding:0px;
 }
 h1{
 	font-size:20px;
+	font-family: Lora;
 }
 a{
 	color:white;
@@ -24,13 +27,16 @@ a{
 #topdirect{
 	margin-left:0px;
 	margin-right:0px;
+	font-family: 'Lobster Two', cursive;
 }
 #bottomContact{
 	margin-left:0px;
 	margin-right:0px;
+	margin-bottom:30px;
+	width:450px;
 }
 #Info{
-	margin-left:10px;
+	margin-left:40px;
 	width:200px;
 }
 /* Text */
@@ -39,6 +45,7 @@ a{
 	margin-right:60px;
 	font-size:24px;
 	font-weight:bold;
+	font-family: 'Faustina', serif;
 }
 p{float:left;
 
@@ -57,23 +64,25 @@ p{float:left;
 
 #bottomn{
 	color:white;
-	
+	font-family: 'Lobster Two', cursive;
 	padding-right:0px;
-	padding-top:20px;
-	text-align:center;
-	width:100%;
+	padding-top:0px;/*
+	text-align:center;*/
+	width:200px;
 }
 
 #ContactUs{
 	background-color:#04BEF4;
 	margin:0px;
 	text-align:center;
-
+		display:inline-block;
 }
 .bottomContact{
 	padding-left:0px;
 	padding-right:0px;
 }
+#caption{
+font-family: 'Faustina', serif;}
 body{
 	
 	margin:0px;
@@ -200,7 +209,7 @@ nav {
     width:100%;
 	
   }
-    #topdirect{
+#topdirect{
 	padding-left:20px;
 	padding-right:2100px;
 	margin:0px;
@@ -209,7 +218,7 @@ nav {
 li{width:100%;}
 #bottomContact{
 	margin-left:0px;
-	margin-right:40px;
+	margin-right:0px;
 }
 #bottomn{
 	padding-left:0px;
@@ -241,7 +250,7 @@ li{width:100%;}
 ul{
 	margin:0px;
 	margin-top:15px;
-	padding-left:10px;
+	padding-left:0px;
 	padding-right:10px;
 }
 li{
@@ -249,11 +258,12 @@ li{
 }
 
 #bottomContact{
-	margin-left:0px;
+	margin-left:40px;
 	margin-right:0px;
+	width:249px;
 }
 #bottomn{
-	padding-left:50px;
+	padding-left:0px;
 	padding-right:0px;
 	padding-top:0px;
 	text-align:center;
@@ -262,7 +272,7 @@ li{
 	border-radius:20% 20% 0% 0%;
 	
 }
-#Info{margin-left:0px;}
+#Info{margin-left:60px;}
 #ContactUs{
 	margin:0px;
 	text-align:center;
@@ -276,7 +286,7 @@ li{
 	display:flex;
 	width:90%;
 	margin-right:0px;
-	margin-left:10px;
+	margin-left:20px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
@@ -406,7 +416,7 @@ img{
 	padding-top:10px;
 }
 #Info{
-	margin-left:30px;
+	margin-left:85px;
 	width:200px;
 }
 #bottomContact{
@@ -505,8 +515,12 @@ img{
 	margin-bottom:15px;
 }
 #bottomContact{
-	margin-left:50px;
+	margin-left:25px;
 	margin-right:0px;
+}
+#Info{
+	margin-left:55px;
+	
 }
 #bottomn{
 	padding-left:70px;
@@ -532,7 +546,7 @@ img{
 }
 li{
 	list-style-type:none;
-	padding-left:0px;
+	padding-left:70px;
 }
 ul{
 	/*display:inline-block;*/
@@ -560,7 +574,7 @@ padding-left:150px;}
 	padding-left:10px;
 }
 #Info{
-	margin-left:60px;
+	margin-left:50px;
 	padding:0px;
 	margin-right:0px;
 }
@@ -572,7 +586,7 @@ padding-left:150px;}
 #inventorydiv{
 	display:flex;
 	width:90%;
-	margin-left:0px;
+	margin-left:80px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
@@ -669,12 +683,12 @@ padding-left:150px;}
 	
 }
 #Info{
-	margin-left:70px;
+	margin-left:60px;
 }
 li{
 	list-style-type:none;
 	font-size:30px;
-	width:768px;
+	width:668px;
 }
 #topdirect{
 	margin-left:0px;
@@ -694,14 +708,14 @@ h1{font-size:30px;}
 	margin-bottom:30px;
 }
 #Category{
-	margin-left:500px;
+	margin-left:300px;
 	margin-right:860px;
 	font-size:20px;
 	font-weight:bold;
 	padding-top:70px;
 }
 #inventorydiv{
-margin-left:50px;}
+margin-left:150px;}
 #LastRowOne{
 	display: inline-block;
     text-align: center;
@@ -750,6 +764,7 @@ margin-left:50px;}
 #bottomContact{
 	margin-left:0px;
 	margin-right:0px;
+	width:450px;
 }
 #bottomn{
 	padding-left:310px;
@@ -766,8 +781,8 @@ margin-left:50px;}
 	margin:0px;
 	text-align:center;
 	height:300px;
-	padding-right:250px;
-	padding-left:0px;
+	padding-right:450px;
+	padding-left:00px;
 	padding-bottom:0px;
 }
 }
@@ -777,18 +792,27 @@ margin-left:50px;}
 	text-align:center;
 	color:white;
 	padding-right:202px;
-	padding-left:290px;}
+	padding-left:220px;}
 	#bottomContact{
-	margin-left:200px;
+	margin-left:100px;
 	margin-right:0px;
 }
 li{
 	list-style-type:none;
 	font-size:30px;
-	width: 768px;
+	width: 600px;
 }
-#Info{margin-left:160px;
+#Info{margin-left:170px;
 }
+#Category{
+	margin-left:425px;
+	margin-right:900px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:70px;
+}
+#inventorydiv{margin-left:100px;
+width:1000px;}
 }
 @media screen and (min-width: 2560px){
 	h1{font-size:50px;}
