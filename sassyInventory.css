@@ -1,69 +1,67 @@
+/* Navigation & Contact */
 nav{background-color:#04BEF4;
 	margin-bottom:0px;
 	text-align:center;
-	color:white;}
+	color:white;
+	margin-right:0px;
+	width:100%;}
+li{
+	list-style-type:none;
+}
 ul{
 	display:inline-block;
 	background-color:#04BEF4;
 	font-size:19px;
-	
+	padding:02px;
+}
+h1{
+	font-size:20px;
+}
+a{
+	color:white;
+	text-decoration:none;
 }
 #topdirect{
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:0px;
+	margin-right:0px;
 }
 #bottomContact{
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:0px;
+	margin-right:0px;
 }
-li{
-	list-style-type:none;
+#Info{
+	margin-left:10px;
+	width:200px;
 }
-#signlist{
-margin-left:0px;
-margin-bottom:10px;}
-#signDescript{
-	display:inline-block;
-	background-color:white;
-	font-size:15px;
-	margin:0px;
-	padding-left:8px;
-}
-p{
-	margin-left:200px;
+/* Text */
+#Category{
+	margin-left:100px;
+	margin-right:60px;
 	font-size:24px;
 	font-weight:bold;
-}/*
-#rowTwo{
-	margin-left:100px;
-}*/
-	
-img{
-	width:5%;
-	height:5%;
-	border-radius:100%;
-	margin-left:20px;
 }
-#Imagerattle{
-	width:4%;
-	height:5%;
-}
+p{float:left;
 
+	padding-top:110px;
+}
 #inventorydiv{
 	display:flex;
+	width:100%;
 	margin-right:0px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
 	text-align:center;
-	margin-bottom:10px;
+	margin-bottom:30px;
 }
 
 #bottomn{
 	color:white;
-	padding-right:13%;
+	
+	padding-right:0px;
 	padding-top:20px;
 	text-align:center;
+	width:100%;
 }
 
 #ContactUs{
@@ -74,9 +72,766 @@ img{
 }
 .bottomContact{
 	padding-left:0px;
-	
 	padding-right:0px;
 }
 body{
+	
+	margin:0px;
+	
+}
+
+/* Images */
+img{
+	width:5%;
+	height:5%;
+	border-radius:100%;
+	margin-left:20px;
+}
+#firstitem{
+	    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:60px;
+	margin-left:120px;
+	height:120px;
+}
+#item {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:60px;
+	margin-left:20px;
+	height:120px;
+}
+#itemTwo{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:15px;
+	height:120px;
+	margin-top:60px;
+	margin-right:10px;
+}
+#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:60px;
+}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:20px;
+	height:120px;
+	margin-top:60px;
+}	
+#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:15px;
+	height:120px;
+	margin-top:60px;
+}	
+#SportsRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:60px;
+}
+
+#LastRow{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:60px;
+	margin-bottom:15px;
+}
+#caption {
+    display: block;
+	margin-left:35px;
+}
+.heart{
+	height:100%;
+	width:100%;
+}
+img{
+	width:100%;
+	height:100%;
+	border-radius:100%;
+	margin-left:20px;
+}
+.Champagne{
+	width:100%;
+	height:100%;
+}
+#Imagerattle{
+	width:100%;
+	height:100%;
+}
+#carriage{
+	width:100%;
+	height:100%;
+}
+/* Media Screens */
+@media screen and (max-width: 319px){
+#Info{margin-left:0px;}
+#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 60px;
+	margin-left:0px;
+	margin-right:0px;
+	height:80px;
+	margin-top:0px;
+}
+body{width:100%;
+}
+
+nav {
+    width:100%;
+	
+  }
+    #topdirect{
+	padding-left:20px;
+	padding-right:2100px;
+	margin:0px;
+	font-size:20px;
+}
+li{width:100%;}
+#bottomContact{
+	margin-left:0px;
+	margin-right:40px;
+}
+#bottomn{
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:center;
+	width:300px;
+	margin-right:0px;
+	border-radius:20% 20% 0% 0%;
+}
+}
+
+@media screen and (min-width: 320px) {
+	nav {
+    width:100%;
+	
+  }
+
+  h1{
+	font-size:17px;
 	margin:0px;
 }
+  #topdirect{
+	padding-left:0px;
+	padding-right:0px;
+	margin:0px;
+	font-size:15px;
+}
+ul{
+	margin:0px;
+	margin-top:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+li{
+	height:100px;
+}
+
+#bottomContact{
+	margin-left:0px;
+	margin-right:0px;
+}
+#bottomn{
+	padding-left:50px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:center;
+	width:200px;
+	margin-right:0px;
+	border-radius:20% 20% 0% 0%;
+	
+}
+#Info{margin-left:0px;}
+#ContactUs{
+	margin:0px;
+	text-align:center;
+	height:200px;
+	width:100%;
+	
+}
+
+/*Images*/
+#inventorydiv{
+	display:flex;
+	width:90%;
+	margin-right:0px;
+	margin-left:10px;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-radius: 10px;
+	text-align:center;
+	margin-bottom:30px;
+}
+#Category{
+	margin-left:90px;
+	margin-right:130px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:10px;
+}
+#item {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-top:50px;
+	margin-left:10px;
+	
+	height:70px;
+}
+#itemTwo{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:5px;
+	height:70px;
+	margin-top:50px;
+	margin-right:10px;
+}
+#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:10px;
+	height:70px;
+	margin-top:50px;
+}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:0px;
+	height:70px;
+	margin-top:50px;
+	
+}
+#firstitem{
+	    display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-top:50px;
+	margin-left:10px;
+	height:70px;
+}	
+#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:10px;
+	height:70px;
+	margin-top:50px;
+	margin-right:10px;
+}	
+#SportsRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:10px;
+	height:70px;
+	margin-top:50px;
+}
+#LastRow{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:20px;
+	height:70px;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+.heart{
+	height:100%;
+	width:100%;
+	
+}
+img{
+	width:100%;
+	height:100%;
+	border-radius:100%;
+	margin-left:0px;
+}
+#caption {
+    display: block;
+	margin-left:5px;
+	font-size:12px;
+
+}
+#Imagerattle{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+#carriage{
+	width:100%;
+	height:100%;
+}
+}
+@media screen and (min-width: 375px) {
+	 h1{
+	font-size:22px;
+	margin:0px;
+}
+  #topdirect{
+	padding-left:0px;
+	padding-right:0px;
+	margin:0px;
+	font-size:20px;
+}
+	#Category{
+	margin-left:110px;
+	margin-right:150px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:10px;
+}
+#Info{
+	margin-left:30px;
+	width:200px;
+}
+#bottomContact{
+	margin-left:60px;
+	margin-right:0px;
+}
+#ContactUs{
+	margin:0px;
+	text-align:center;
+	height:200px;
+}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 50px;
+	margin-left:10px;
+	height:70px;
+	margin-top:50px;
+	
+}
+}
+@media screen and (min-width: 425px) {
+	#Category{
+	margin-left:130px;
+	margin-right:150px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:10px;
+}
+	#item {
+  
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-top:50px;
+	margin-left:10px;
+	height:100px;
+}
+	#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:20px;
+	height:100px;
+	margin-top:50px;
+	}
+	#itemTwo{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:10px;
+	height:100px;
+	margin-top:50px;
+	margin-right:10px;
+}
+#firstitem{
+	    display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-top:50px;
+	margin-left:10px;
+	height:100px;
+}	
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:10px;
+	height:100px;
+	margin-top:50px;
+	margin-bottom:0px;
+}	
+#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:10px;
+	height:100px;
+	margin-top:50px;
+}
+#SportsRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:10px;
+	height:100px;
+	margin-top:50px;
+}
+#LastRow{
+	display: inline-block;
+    text-align: center;
+    width: 80px;
+	margin-left:20px;
+	height:100px;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+#bottomContact{
+	margin-left:50px;
+	margin-right:0px;
+}
+#bottomn{
+	padding-left:70px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:center;
+	width:200px;
+	margin-right:0px;
+	border-radius:20% 20% 0% 0%;
+	
+}}
+@media screen and (min-width: 605px) {
+	nav{
+	padding-bottom:0px;
+	text-align:center;
+	padding-right:70px;
+	}
+	#topdirect{
+	padding-left:0px;
+	padding-right:0px;
+	margin:0px;
+	font-size:15px;
+}
+li{
+	list-style-type:none;
+	padding-left:40px;
+}
+ul{
+	/*display:inline-block;*/
+	font-size:20px;	
+}
+#firstitem{
+	    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:40px;
+	margin-left:0px;
+	height:120px;
+}
+
+#bottomn{
+width:300px;
+padding-left:150px;}
+
+#ContactUs{
+	width:100%;
+	margin-left:0px;
+	text-align:center;
+	padding-right:60px;
+	padding-bottom:0px;
+	padding-left:10px;
+}
+#Info{
+	margin-left:60px;
+	padding:0px;
+	margin-right:0px;
+}
+.bottomContact{
+	
+	margin-left:0px;
+	padding-right:0px;
+}
+#inventorydiv{
+	display:flex;
+	width:90%;
+	margin-left:60px;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-radius: 10px;
+	text-align:center;
+	margin-bottom:30px;
+}
+#Category{
+	margin-left:200px;
+	margin-right:1050px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:70px;
+}
+#item {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:40px;
+	margin-left:10px;
+	height:120px;
+}
+
+	#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:40px;
+	}
+	#itemTwo{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:40px;
+	margin-right:5px;
+}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:40px;
+	margin-bottom:0px;
+}	
+#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:20px;
+	height:120px;
+	margin-top:50px;
+}
+#SportsRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:20px;
+	height:120px;
+	margin-top:40px;
+}
+#LastRow{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:20px;
+	height:120px;
+	margin-top:40px;
+	margin-bottom:15px;
+}
+
+}
+@media screen and (min-width: 768px) {
+	nav{
+	padding-bottom:20px;
+	text-align:center;
+	color:white;
+	padding-right:162px;
+	padding-left:90px;}
+	#topdirect{
+	padding-left:0px;
+	padding-right:0px;
+	margin:0px;
+	font-size:15px;
+}
+	ul{
+	display:inline-block;
+	background-color:#04BEF4;
+	font-size:30px;
+	
+}
+li{
+	list-style-type:none;
+	font-size:30px;
+	width:768px;
+}
+#topdirect{
+	margin-left:0px;
+	margin-right:0px;
+
+	font-size:30px;
+}
+h1{font-size:30px;}
+#inventorydiv{
+	display:flex;
+	width:100%;
+	margin-left:60px;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-radius: 10px;
+	text-align:center;
+	margin-bottom:30px;
+}
+#Category{
+	margin-left:310px;
+	margin-right:1050px;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:70px;
+}
+#inventorydiv{
+margin-left:120px;}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+#item {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:40px;
+	margin-left:10px;
+	margin-right:5px;
+	height:120px;
+}
+#firstitem {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-top:40px;
+	margin-left:10px;
+	margin-right:5px;
+	height:120px;
+}
+#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:10px;
+	height:120px;
+	margin-top:50px;
+	}
+	#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 120px;
+	margin-left:0px;
+	height:120px;
+	margin-top:45px;
+	}
+#bottomContact{
+	margin-left:0px;
+	margin-right:0px;
+}
+#bottomn{
+	padding-left:350px;
+	padding-right:0px;
+	margin-bottom:20px;
+	padding-top:0px;
+	text-align:center;
+	width:100px;
+	margin-right:0px;
+	border-radius:20% 20% 0% 0%;
+	
+}
+#ContactUs{
+	margin:0px;
+	text-align:center;
+	height:300px;
+	padding-right:250px;
+	padding-left:0px;
+	padding-bottom:0px;
+}
+}
+@media screen and (min-width: 1024px){
+		nav{
+	padding-bottom:20px;
+	text-align:center;
+	color:white;
+	padding-right:202px;
+	padding-left:290px;}
+	#bottomContact{
+	margin-left:200px;
+	margin-right:0px;
+}
+li{
+	list-style-type:none;
+	font-size:30px;
+	width: 768px;
+}
+#Info{margin-left:160px;
+}
+}
+@media screen and (min-width: 2560px){
+	h1{font-size:50px;}
+	#topdirect{
+	margin-left:100px;
+	margin-right:100px;
+	font-size:50px;
+}
+ul{font-size:50px;}
+
+nav{height:200px;}
+#ContactUs{
+	padding-top:60px;
+	text-align:center;
+	height:400px;
+	margin-top:60px;
+}#Category{
+	margin-left:10px;
+	margin-right:0px;
+	font-size:50px;
+	font-weight:bold;
+
+	padding-top:70px;
+}
+#caption {
+    display: block;
+	margin-left:35px;
+	font-size:30px;
+}
+#bottomn{
+	padding-left:200px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:center;
+	width:0px;
+	height:0px;
+	margin-left:100px;
+	margin-right:0px;
+	border-radius:20% 20% 0% 0%;
+	
+}
+#bottomContact{
+	margin-left:750px;
+	margin-right:0px;
+}
+#Info{margin-left:570px;
+width:800px;
+}
+} 
