@@ -13,8 +13,18 @@ body{margin:0px;}
   float: left;
   height:100%;
   padding-right: 0%;
+  margin-left:100px;
 }
-
+img{padding:5px;
+border-radius:100%;
+}
+ul{margin:0px;}
+#UnicornI{max-height:70%;
+max-width:70%;}
+#docI{max-height:80%;
+max-width:80%;}
+#ChrisI{max-height:80%;
+max-width:80%;}
 #form{
   display: flex;
   flex-direction: column;
@@ -26,7 +36,11 @@ body{margin:0px;}
 }
 #ContactUs {
   text-align: center;
-  margin-left:200px;
+  margin-left:0px;
+  background-color:  #04BEF4;
+   border-radius:20% 20% 0% 0%;
+   margin-top:150px;
+   
 }
 #topdirect{
 margin-top:0px;}
@@ -34,9 +48,11 @@ margin-top:0px;}
   display: flex;
   flex-direction: column;
   width: 20%;
- 
+padding:5px;
   float: right;
   justify-content: right;
   margin-bottom:30px;
-  background-color:red;
+margin-right:100px;
+  max-height:30%;
+max-width:30%;
 }
