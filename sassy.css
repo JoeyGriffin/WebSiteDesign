@@ -23,6 +23,11 @@ ul{
 li{
 	list-style-type:none;
 }
+
+a {
+	color:white;
+	text-decoration:none;
+}
 .topdirect{
 	padding-left:100px;
 	font-family: Lobster Two;
