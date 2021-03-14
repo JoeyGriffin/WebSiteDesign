@@ -1,3 +1,47 @@
+/*Test */
+#scripthidecontainer {
+  overflow: hidden;
+  
+}
+
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+	
+	
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #04BEF4;
+  cursor: pointer;
+  font-family: 'Faustina', serif;
+ 
+  margin-left:25px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #blue;
+  color:white;
+  font-family: 'Faustina', serif;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #04BEF4;
+ 
+}
+
+
 /* Navigation & Contact */
 nav{background-color:#04BEF4;
 	margin-bottom:0px;
@@ -7,11 +51,11 @@ nav{background-color:#04BEF4;
 	width:100%;}
 li{
 	list-style-type:none;
-	margin-right:270px;
+	/*margin-right:270px;*/
 	
 }
+
 ul{
-	display:inline-block;
 	background-color:#04BEF4;
 	font-size:19px;
 	padding:0px;
@@ -20,14 +64,19 @@ h1{
 	font-size:20px;
 	font-family: Lora;
 }
+h2{
+	margin-left:300px;
+margin-right:auto;
+font-family: 'Faustina', serif;}
 a{
 	color:white;
 	text-decoration:none;
 }
 #topdirect{
 	margin-left:0px;
-	margin-right:0px;
+	margin-right:100px;
 	font-family: 'Lobster Two', cursive;
+	
 }
 #bottomContact{
 	margin-left:0px;
@@ -179,8 +228,8 @@ img{
 	margin-left:20px;
 }
 .Champagne{
-	width:100%;
-	height:100%;
+	width:200%;
+	height:200%;
 }
 #Imagerattle{
 	width:100%;
@@ -208,10 +257,11 @@ body{width:100%;
 nav {
     width:100%;
 	
-  }
+  } 
+
 #topdirect{
 	padding-left:20px;
-	padding-right:2100px;
+	padding-right:20px;
 	margin:0px;
 	font-size:20px;
 }
@@ -228,37 +278,53 @@ li{width:100%;}
 	width:300px;
 	margin-right:0px;
 	border-radius:20% 20% 0% 0%;
+
 }
 }
 
 @media screen and (min-width: 320px) {
 	nav {
-    width:100%;
-	
+    width:110%;
+	padding-bottom:90px;
+	padding-top:20px;
   }
-
-  h1{
-	font-size:17px;
-	margin:0px;
+#abs{
+	margin-right:30px;
 }
+.btn{
+  display:inline;
+  width:44%;
+  margin:2px;
+  margin-left:15px;
+}
+  h1{
+	font-size:33px;
+	margin:0px;	
+	margin-right:100px;
+}
+ h2{margin-left:20px;}
   #topdirect{
 	padding-left:0px;
-	padding-right:0px;
+	padding-right:50px;
 	margin:0px;
-	font-size:15px;
+	margin-left:75px;
+	font-size:20px;
+	width:100px;
+	display:inline;
 }
 ul{
 	margin:0px;
 	margin-top:15px;
 	padding-left:0px;
 	padding-right:10px;
+	margin-left:115px;
 }
 li{
 	height:100px;
 }
 
 #bottomContact{
-	margin-left:40px;
+	margin-left:30px;
 	margin-right:0px;
 	width:249px;
 }
@@ -270,15 +336,16 @@ li{
 	width:200px;
 	margin-right:0px;
 	border-radius:20% 20% 0% 0%;
+	margin-bottom:100px;
 	
 }
 #Info{margin-left:60px;}
 #ContactUs{
 	margin:0px;
 	text-align:center;
-	height:200px;
-	width:100%;
-	
+	height:450px;
+	width:119%;
+	margin-bottom:0px;
 }
 
 /*Images*/
@@ -291,10 +358,10 @@ li{
 	flex-wrap:wrap;
 	border-radius: 10px;
 	text-align:center;
-	margin-bottom:30px;
+	margin-bottom:130px;
 }
 #Category{
-	margin-left:90px;
+	margin-left:120px;
 	margin-right:130px;
 	font-size:20px;
 	font-weight:bold;
@@ -306,7 +373,7 @@ li{
     text-align: center;
     width: 50px;
 	margin-top:50px;
-	margin-left:10px;
+	margin-left:60px;
 	
 	height:70px;
 }
@@ -314,7 +381,7 @@ li{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:5px;
+	margin-left:60px;
 	height:70px;
 	margin-top:50px;
 	margin-right:10px;
@@ -323,7 +390,7 @@ li{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:10px;
+	margin-left:70px;
 	height:70px;
 	margin-top:50px;
 }
@@ -331,7 +398,7 @@ li{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:0px;
+	margin-left:60px;
 	height:70px;
 	margin-top:50px;
 	
@@ -341,14 +408,14 @@ li{
     text-align: center;
     width: 50px;
 	margin-top:50px;
-	margin-left:10px;
+	margin-left:60px;
 	height:70px;
 }	
 #BirthdayRowBegining{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:10px;
+	margin-left:70px;
 	height:70px;
 	margin-top:50px;
 	margin-right:10px;
@@ -357,7 +424,7 @@ li{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:10px;
+	margin-left:60px;
 	height:70px;
 	margin-top:50px;
 }
@@ -365,51 +432,57 @@ li{
 	display: inline-block;
     text-align: center;
     width: 50px;
-	margin-left:20px;
+	margin-left:60px;
 	height:70px;
 	margin-top:50px;
 	margin-bottom:15px;
 }
 .heart{
-	height:100%;
-	width:100%;
+	height:200%;
+	width:200%;
 	
 }
 img{
-	width:100%;
-	height:100%;
+	width:200%;
+	height:200%;
 	border-radius:100%;
 	margin-left:0px;
 }
 #caption {
     display: block;
-	margin-left:5px;
+	margin-left:30px;
 	font-size:12px;
 
 }
 #Imagerattle{
-	width:100%;
-	height:100%;
+	width:200%;
+	height:200%;
 	margin:0px;
 }
 #carriage{
-	width:100%;
-	height:100%;
+	width:200%;
+	height:200%;
 }
 }
 @media screen and (min-width: 375px) {
 	 h1{
-	font-size:22px;
+	font-size:30px;
 	margin:0px;
+	margin-right:140px;
+}
+nav {
+    width: 110%;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
   #topdirect{
-	padding-left:0px;
-	padding-right:0px;
+	padding-left:40px;
+	padding-right:80px;
 	margin:0px;
-	font-size:20px;
+	font-size:25px;
 }
 	#Category{
-	margin-left:110px;
+	margin-left:130px;
 	margin-right:150px;
 	font-size:20px;
 	font-weight:bold;
@@ -425,8 +498,37 @@ img{
 }
 #ContactUs{
 	margin:0px;
+	margin-bottom:0px;
 	text-align:center;
-	height:200px;
+	height:600px;
+}
+#item {
+    /* vertical-align: top; */
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 70px;
+	margin-right:60px;
+}
+#RowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+    height: 70px;
+    margin-top: 50px;
+	margin-right:38px;
+}
+#itemTwo {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+    height: 70px;
+    margin-top: 50px;
+    margin-right: 60px;
 }
 #LastRowOne{
 	display: inline-block;
@@ -435,7 +537,43 @@ img{
 	margin-left:10px;
 	height:70px;
 	margin-top:50px;
-	
+	margin-right:10px;
+}
+#firstitem {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 70px;
+	margin-right:60px;
+}
+#BirthdayRowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+    height: 70px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+#SportsRowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+    height: 70px;
+    margin-top: 50px;
+	margin-right:38px;
+}
+#LastRow {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    margin-left: 130px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 }
 @media screen and (min-width: 425px) {
@@ -473,7 +611,7 @@ img{
 	margin-right:10px;
 }
 #firstitem{
-	    display: inline-block;
+	display: inline-block;
     text-align: center;
     width: 80px;
 	margin-top:50px;
@@ -534,23 +672,29 @@ img{
 }}
 @media screen and (min-width: 605px) {
 	nav{
-	padding-bottom:0px;
+	padding-bottom:80px;
 	text-align:center;
 	padding-right:70px;
+	padding-left:70px;
 	}
+	h1{font-size:30pt;}
 	#topdirect{
-	padding-left:0px;
+	padding-left:120px;
 	padding-right:0px;
 	margin:0px;
-	font-size:15px;
+	font-size:25pt;
 }
+.btn{
+	margin-left:0px;
+}
+h2{margin-left:200px;}
 li{
 	list-style-type:none;
-	padding-left:70px;
+	padding-left:0px;
 }
 ul{
 	/*display:inline-block;*/
-	font-size:20px;	
+	font-size:30pt;	
 }
 #firstitem{
 	    display: inline-block;
@@ -569,12 +713,12 @@ padding-left:150px;}
 	width:100%;
 	margin-left:0px;
 	text-align:center;
-	padding-right:60px;
-	padding-bottom:0px;
+	padding-right:140px;
+	padding-bottom:200px;
 	padding-left:10px;
 }
 #Info{
-	margin-left:50px;
+	margin-left:40px;
 	padding:0px;
 	margin-right:0px;
 }
@@ -622,10 +766,10 @@ padding-left:150px;}
 	display: inline-block;
     text-align: center;
     width: 120px;
-	margin-left:10px;
+	margin-left:0px;
 	height:120px;
 	margin-top:40px;
-	margin-right:5px;
+	margin-right:170px;
 }
 #LastRowOne{
 	display: inline-block;
@@ -648,15 +792,16 @@ padding-left:150px;}
 	display: inline-block;
     text-align: center;
     width: 120px;
-	margin-left:20px;
+	margin-left:0px;
 	height:120px;
 	margin-top:40px;
+	margin-right:130px;
 }
 #LastRow{
 	display: inline-block;
     text-align: center;
     width: 120px;
-	margin-left:20px;
+	margin-left:120px;
 	height:120px;
 	margin-top:40px;
 	margin-bottom:15px;
@@ -664,17 +809,24 @@ padding-left:150px;}
 
 }
 @media screen and (min-width: 768px) {
+	h2{margin-left:100px;
+	font-size:30px;
+	width:600px;}
 	nav{
-	padding-bottom:20px;
+	padding-bottom:190px;
 	text-align:center;
 	color:white;
-	padding-right:162px;
+	padding-right:490px;
 	padding-left:90px;}
 	#topdirect{
 	padding-left:0px;
-	padding-right:0px;
+	padding-right:362px;
 	margin:0px;
 	font-size:15px;
+	display:inline;
+}
+.btn{
+margin-left:270px;
 }
 	ul{
 	display:inline-block;
@@ -683,24 +835,25 @@ padding-left:150px;}
 	
 }
 #Info{
-	margin-left:60px;
+	margin-left:120px;
 }
 li{
 	list-style-type:none;
 	font-size:30px;
-	width:668px;
+	width:568px;
+	margin-left:30px;
 }
 #topdirect{
-	margin-left:0px;
-	margin-right:0px;
+	margin-left:220px;
+	margin-right:50px;
 
-	font-size:30px;
+	font-size:50px;
 }
-h1{font-size:30px;}
+h1{font-size:60px;}
 #inventorydiv{
 	display:flex;
 	width:100%;
-	margin-left:60px;
+	margin-left:100px;
 	flex-direction:row;
 	flex-wrap:wrap;
 	border-radius: 10px;
@@ -708,9 +861,9 @@ h1{font-size:30px;}
 	margin-bottom:30px;
 }
 #Category{
-	margin-left:300px;
+	margin-left:180px;
 	margin-right:860px;
-	font-size:20px;
+	font-size:30px;
 	font-weight:bold;
 	padding-top:70px;
 }
@@ -720,7 +873,7 @@ margin-left:150px;}
 	display: inline-block;
     text-align: center;
     width: 120px;
-	margin-left:10px;
+	margin-left:140px;
 	height:120px;
 	margin-top:50px;
 	margin-bottom:15px;
@@ -731,8 +884,8 @@ margin-left:150px;}
     text-align: center;
     width: 120px;
 	margin-top:40px;
-	margin-left:10px;
-	margin-right:5px;
+	margin-left:0px;
+	margin-right:150px;
 	height:120px;
 }
 #firstitem {
@@ -742,16 +895,17 @@ margin-left:150px;}
     width: 120px;
 	margin-top:40px;
 	margin-left:10px;
-	margin-right:5px;
+	margin-right:150px;
 	height:120px;
 }
 #RowBegining{
 	display: inline-block;
     text-align: center;
     width: 120px;
-	margin-left:10px;
+	margin-left:0px;
 	height:120px;
 	margin-top:50px;
+	margin-right:130px;
 	}
 	#BirthdayRowBegining{
 	display: inline-block;
@@ -760,6 +914,7 @@ margin-left:150px;}
 	margin-left:0px;
 	height:120px;
 	margin-top:45px;
+	margin-right:150px;
 	}
 #bottomContact{
 	margin-left:0px;
@@ -767,9 +922,9 @@ margin-left:150px;}
 	width:450px;
 }
 #bottomn{
-	padding-left:310px;
+	padding-left:180px;
 	padding-right:0px;
-	margin-bottom:20px;
+	margin-bottom:600px;
 	padding-top:0px;
 	text-align:center;
 	width:100px;
@@ -781,49 +936,155 @@ margin-left:150px;}
 	margin:0px;
 	text-align:center;
 	height:300px;
-	padding-right:450px;
+	padding-right:660px;
 	padding-left:00px;
-	padding-bottom:0px;
+	padding-bottom:700px;
 }
 }
 @media screen and (min-width: 1024px){
+		h1 {
+		font-size: 60px;}	
 		nav{
-	padding-bottom:20px;
+	padding-bottom:190px;
 	text-align:center;
 	color:white;
 	padding-right:202px;
-	padding-left:220px;}
+	padding-left:290px;}
 	#bottomContact{
-	margin-left:100px;
+	margin-left:180px;
 	margin-right:0px;
+}h2 {
+    margin-left: 330px;
+    font-size: 30px;
+    width: 600px;
+}
+
+#ContactUs {
+    margin: 0px;
+    text-align: center;
+    height: 400px;
+    padding-right: 660px;
+    padding-left: 00px;
+    padding-bottom: 0px;
+}
+#LastRow {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 400px;
+    height: 120px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+#item {
+    /* vertical-align: top; */
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 0px;
+    height: 120px;
+}
+#itemTwo {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 150px;
+    height: 120px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+#LastRowOne {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 160px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+#RowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 150px;
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+#firstitem {
+    /* vertical-align: top; */
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-right: 0px;
+    height: 120px;
+}
+#BirthdayRowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 140px;
+    height: 120px;
+    margin-top: 45px;
+    margin-right: 0px;
+}
+#SportsRowBegining {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-left: 150px;
+    height: 120px;
+    margin-top: 40px;
+    margin-right: 130px;
 }
 li{
 	list-style-type:none;
 	font-size:30px;
 	width: 600px;
+	margin-left:70px;
 }
-#Info{margin-left:170px;
+.btn{
+	margin-left:50px;
+}
+#topdirect {
+    margin-left: 200px;
+    margin-right: 50px; 
+    font-size: 50px;
+	display:inline;
+	
+}
+#Info{margin-left:270px;
 }
 #Category{
-	margin-left:425px;
+	margin-left:460px;
 	margin-right:900px;
 	font-size:20px;
 	font-weight:bold;
 	padding-top:70px;
 }
+
+
 #inventorydiv{margin-left:100px;
 width:1000px;}
 }
 @media screen and (min-width: 2560px){
-	h1{font-size:50px;}
+	h1{font-size:100pt;}
 	#topdirect{
 	margin-left:100px;
 	margin-right:100px;
 	font-size:50px;
 }
+#nav{
+padding-left:320;}
+#topdirect{
+font-size:90pt;}
 ul{font-size:50px;}
 
-nav{height:200px;}
+nav{height:750px;}
 #ContactUs{
 	padding-top:60px;
 	text-align:center;
@@ -840,7 +1101,7 @@ nav{height:200px;}
 #caption {
     display: block;
 	margin-left:35px;
-	font-size:30px;
+	font-size:30pt;
 }
 #bottomn{
 	padding-left:200px;
@@ -857,8 +1118,88 @@ nav{height:200px;}
 #bottomContact{
 	margin-left:750px;
 	margin-right:0px;
+	font-size:40pt;
 }
-#Info{margin-left:570px;
+#Info{margin-left:670px;
 width:800px;
+}
+h2{font-size:45pt;
+margin-left:600px;}
+.btn{
+font-size:40pt;
+margin-left:300px;}
+li{width:1000px;
+margin-left:500px;}
+#inventorydiv{margin-left:100px;
+width:2500px;}
+
+#firstitem{
+	    display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-top:60px;
+	margin-left:120px;
+	height:320px;
+}
+#item {
+   /* vertical-align: top;*/
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-top:60px;
+	margin-left:20px;
+	height:320px;
+}
+#itemTwo{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:15px;
+	height:320px;
+	margin-top:60px;
+	margin-right:10px;
+}
+#RowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:10px;
+	height:320px;
+	margin-top:60px;
+}
+#LastRowOne{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:20px;
+	height:320px;
+	margin-top:60px;
+}	
+#BirthdayRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:15px;
+	height:320px;
+	margin-top:60px;
+}	
+#SportsRowBegining{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:10px;
+	height:320px;
+	margin-top:60px;
+}
+
+#LastRow{
+	display: inline-block;
+    text-align: center;
+    width: 320px;
+	margin-left:10px;
+	height:320px;
+	margin-top:60px;
+	margin-bottom:15px;
+}
 }
 }
