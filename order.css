@@ -1,3 +1,14 @@
+html {
+  width: auto;
+  height: 1200px;
+}
+
+body {
+  width: auto;
+  height: 80%;
+  background-color: #FFF;
+}
+
 nav {
   background-color: #04BEF4;
   text-align: center;
@@ -20,6 +31,7 @@ body
   padding-right: 0%;
   margin-left:100px;
 }
+
 img{padding:5px;
 border-radius:100%;
 }
@@ -51,9 +63,10 @@ footer {
   margin-left:0px;
   background-color:  #04BEF4;
    border-radius:20% 20% 0% 0%;
-   margin-top:150px;
-   padding:70px;
-
+   bottom: -500px;
+   position: absolute;
+   height: 100px;
+   width: 100%;
 }
 #topdirect{
 margin-top:0px;
