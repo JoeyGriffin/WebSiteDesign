@@ -1,0 +1,107 @@
+/*Mobile phone*/
+@media (min-width: 400px){
+body{
+ background-color: red;
+}
+
+}
+
+/*Tablet*/
+@media (min-width: 401px) and (max-width: 749px){
+ body{
+ background-color: blue;
+ }
+}
+/*Laptop*/
+@media (min-width: 750px){
+body{
+background-color: green;
+}
+
+html {
+  width: auto;
+  height: 1200px;
+}
+
+body {
+  width: auto;
+  height: 80%;
+  background-color: #FFF;
+}
+
+nav {
+  background-color: #04BEF4;
+  text-align: center;
+  width: 100%;
+  margin-right:20px;
+  border-radius:0% 0% 20% 20%;
+  color: white;
+}
+
+
+body
+{margin:0px;}
+
+#images{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  float: left;
+  height:100%;
+  padding-right: 0%;
+  margin-left:100px;
+}
+
+img{padding:5px;
+border-radius:100%;
+}
+
+ul{margin:0px;
+display: inline-block;
+
+}
+#UnicornI{max-height:70%;
+max-width:70%;}
+
+#docI{max-height:80%;
+max-width:80%;}
+
+#ChrisI{max-height:80%;
+max-width:80%;}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+	margin-right:200px;
+
+}
+footer {
+  text-align: center;
+  margin-left:0px;
+  background-color:  #04BEF4;
+   border-radius:20% 20% 0% 0%;
+   bottom: -500px;
+   position: absolute;
+   height: 100px;
+   width: 100%;
+}
+#topdirect{
+margin-top:0px;
+
+}
+
+#images2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+padding:5px;
+  float: right;
+  justify-content: right;
+  margin-bottom:30px;
+margin-right:100px;
+  max-height:30%;
+max-width:30%;
+}
